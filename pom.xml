@@ -30,10 +30,17 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
+		<!-- Thymeleaf Dependency -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<!-- Additional Dependencies for JPA and H2 (if using an in-memory database) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		<!-- Web Starter Dependency for MVC support -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
